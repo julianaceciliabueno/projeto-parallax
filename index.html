@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>parallax</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	/*configuração da pagina*/
+body,html{
+	margin: 0;
+	font: 16px "lato",sans-serif;
+	height: 100%;
+}
+	
+	.conteudo {
+		color: #777;
+		background-color: white;
+		text-align: justify;
+		padding: 50px 80px;
+	}
+
+	h3 {
+		text-transform: uppercase;
+		color: #111;
+		text-align: center;
+	}
+	/*configuração do parallax*/
+
+	.caixa1, .caixa2,.caixa3,.caixa4{
+		opacity: 0.7;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		position: relative;
+
+
+	}
+
+	.caixa1{
+		background-image: url(imagens/imagem1.jpg);
+
+	}
+
+	.caixa2 {
+		background-image: url(imagens/imagem2.jpg);
+
+
+	}
+	.caixa3 {
+		background-image: url(imagens/imagem3.jpg);
+
+
+	}
+	.caixa4 {
+		background-image: url(imagens/imagem4.jpg);
+
+
+	}
+
+.conteudo-titulo {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+	
+}
+.conteudo-titulo span.titulo {
+	color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size:25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+
+}
+
+
+
+</style>
+</head>
+<body>
+	<div class="caixa1">
+	<div class="conteudo-titulo">
+		<span class="titulo">passeio de balões</span>
+		</div>
+    </div>
+		
+	
+<div class="conteudo">
+	
+		<h3>PARALLAX</h3>
+		<p>
+			Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Atirei o pau no gatis, per gatis num morreus. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+		</p>
+	</div>
+	<div class="caixa2">
+		<div class="conteudo-titulo">
+		<span class="titulo">Estrada</span>
+		</div>
+    </div>
+
+		
+	</div>
+	<div class="conteudo">
+		<h3>PARALLAX</h3>
+		<p>
+			Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Atirei o pau no gatis, per gatis num morreus. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+		</p>
+	</div>
+	<div class="caixa4">
+		<div class="conteudo-titulo">
+		<span class="titulo">Montanhas</span>
+		</div>
+    </div>
+		
+	</div>
+
+</body>
+</html>
